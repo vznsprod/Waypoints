@@ -1,0 +1,29 @@
+# hello!!! this is my cool plugin!??!?!?! <3 :3 :3 :3
+territory:
+  radius: 100
+  min-distance: 100
+
+waypoints:
+  max-per-player: 3
+  max-radius: 50
+  default-radius: 50
+  per-group-limits:
+    waypoints.limit.5: 5
+  per-group-radius:
+    waypoints.limit.5: 75
+
+icon:
+  size: 32
+
+hologram:
+  offset: 2.5
+
+messages:
+  territory-enter: "<gold>You entered territory: <yellow>{name}"
+  territory-leave: "<gray>You left territory: <dark_gray>{name}"
+  waypoint-created: "<green>Waypoint <yellow>{name} <green>created"
+  waypoint-removed: "<red>Waypoint <yellow>{name} <red>removed"
+  invalid-item: "<red>Use a compass"
+  too-close: "<red>Too close! Minimum distance: {distance} blocks"
+  max-waypoints: "<red>Limit reached. Maximum: {max}"
+  reload-success: "<green>Config reloaded"
