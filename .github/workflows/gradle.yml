@@ -45,7 +45,8 @@ jobs:
           build-scan-publish: true
           build-scan-terms-of-use-url: "https://gradle.com/terms-of-service"
           build-scan-terms-of-use-agree: "yes"
-
+      - name: Perm
+        run: chmod +x gradlew
       - name: Build
         run: ./gradlew build --no-daemon --stacktrace
 
